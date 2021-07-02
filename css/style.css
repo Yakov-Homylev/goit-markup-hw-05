@@ -7,7 +7,7 @@
   --third-background-color: #2f303a;
   --primary-icon-color: #afb1b8;
   --card-set-gap: 30px;
-  --cubic-animation: cubic-bezier(0.4, 0, 0.2, 1)
+  --cubic-animation: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -108,10 +108,10 @@ ul {
   align-content: center;
 }
 .site-nav .link {
- position: relative;
+  position: relative;
 
- padding-bottom: 32px;
- padding-top: 32px;
+  padding-bottom: 32px;
+  padding-top: 32px;
 
   color: var(--secondary-text-color);
 
@@ -124,7 +124,6 @@ ul {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-
   color: var(--accent-color);
 }
 
@@ -161,7 +160,8 @@ ul {
   font-weight: 500;
   line-height: 1.17;
 
-  transition: color 250ms var(--cubic-animation), fill 250ms var(--cubic-animation);;
+  transition: color 250ms var(--cubic-animation),
+    fill 250ms var(--cubic-animation);
 }
 .contacts-item > .link {
   display: flex;
@@ -169,10 +169,8 @@ ul {
 }
 .contacts .link:focus,
 .contacts .link:hover {
-
   color: var(--accent-color);
   fill: var(--accent-color);
-
 }
 
 .contacts .contacts-item:not(:last-child) {
@@ -305,13 +303,13 @@ ul {
   padding-bottom: 27px;
 }
 .work-item-text {
-font-family: Roboto;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--primary-white-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
 }
 /* Team */
 .team-section {
@@ -379,12 +377,11 @@ color: var(--primary-white-color);
 
   fill: var(--primary-icon-color);
 
-  transition: fill 250ms var(--cubic-animation), background-color 250ms var(--cubic-animation);
-
+  transition: fill 250ms var(--cubic-animation),
+    background-color 250ms var(--cubic-animation);
 }
 .worker-social-link:hover,
 .worker-social-link:focus {
-
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
   cursor: pointer;
@@ -418,11 +415,9 @@ color: var(--primary-white-color);
   border-radius: 4px;
 
   transition: fill 250ms var(--cubic-animation);
-
 }
 .clients-company-icon:focus,
 .clients-company-icon:hover {
-
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
   cursor: pointer;
@@ -448,11 +443,9 @@ color: var(--primary-white-color);
   color: rgba(255, 255, 255, 0.6);
 
   transition: color 250ms var(--cubic-animation);
-
 }
 .address-head .footer-contacts:hover,
 .address-head .footer-contacts:focus {
-
   color: var(--accent-color);
 }
 
@@ -492,11 +485,9 @@ color: var(--primary-white-color);
   border-radius: 50%;
 
   transition: background-color 250ms var(--cubic-animation);
-
 }
 .footer-social-icon:hover,
 .footer-social-icon:focus {
-
   background-color: var(--accent-color);
   cursor: pointer;
 }
@@ -526,12 +517,11 @@ color: var(--primary-white-color);
   border-radius: 4px;
   border-color: transparent;
 
-  transition: background-color 250ms var(--cubic-animation), color 250ms var(--cubic-animation), box-shadow 250ms var(--cubic-animation);
-
+  transition: background-color 250ms var(--cubic-animation),
+    color 250ms var(--cubic-animation), box-shadow 250ms var(--cubic-animation);
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
-
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   border-color: transparent;
@@ -557,11 +547,9 @@ color: var(--primary-white-color);
   max-width: 370px;
   max-height: 404px;
   transition: box-shadow 250ms var(--cubic-animation);
-
 }
 .card-projects-link:hover,
 .card-projects-link:focus {
-
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -609,7 +597,7 @@ color: var(--primary-white-color);
   letter-spacing: 0.03em;
 }
 .card-projects-link:hover .card-projects-description,
-.card-projects-link:focus .card-projects-description  {
+.card-projects-link:focus .card-projects-description {
   transform: translateY(0);
 }
 
@@ -622,7 +610,6 @@ color: var(--primary-white-color);
   height: 100%;
 
   background: rgba(0, 0, 0, 0.2);
-
 
   opacity: 1;
   transition: opacity 250ms var(--cubic-animation);
@@ -649,10 +636,9 @@ color: var(--primary-white-color);
 
   background-color: var(--primary-white-color);
 
- transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
 
- transition: transform 250ms var(--cubic-animation);
-
+  transition: transform 250ms var(--cubic-animation);
 }
 .modal-close {
   display: flex;
