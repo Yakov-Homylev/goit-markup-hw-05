@@ -414,7 +414,8 @@ ul {
   border: 1px solid var(--primary-icon-color);
   border-radius: 4px;
 
-  transition: fill 250ms var(--cubic-animation);
+  transition: fill 250ms var(--cubic-animation),
+    border 250ms var(--cubic-animation);
 }
 .clients-company-icon:focus,
 .clients-company-icon:hover {
@@ -504,6 +505,8 @@ ul {
 }
 
 .button-portfolio {
+  padding: 6px 22px;
+
   color: var(--secondary-text-color);
   background-color: var(--secondary-bacground-color);
   cursor: pointer;
@@ -612,12 +615,14 @@ ul {
   background: rgba(0, 0, 0, 0.2);
 
   opacity: 1;
-  transition: opacity 250ms var(--cubic-animation);
+  transition: opacity 250ms var(--cubic-animation),
+    visibility 250ms var(--cubic-animation);
 }
 
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
 }
 
 .backdrop.is-hidden .modal {
